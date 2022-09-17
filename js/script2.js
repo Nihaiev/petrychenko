@@ -1,5 +1,8 @@
 /**
  * Цикли
+ * while
+ * do while
+ * for (continue, break)
  */
 
 let num = 50;
