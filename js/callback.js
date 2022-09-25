@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * callback
  * це функція яка повинна виконатись після того як інша функція завершила своє виконання
  */
@@ -26,3 +27,18 @@ function done() {
 }
 
 learnJS("JavaScript", done);
+=======
+ * Callback функції
+ * Це функція яка повинна виконатись коли перша завершила своє виконання
+ *
+ *
+ */
+
+function learnJS(lang, callback) {
+  console.log(`i lern ${lang}`);
+  callback();
+}
+learnJS("JavaScript", function () {
+  console.log("I finish lern JS");
+});
+>>>>>>> f0591c99055927e569593350b84694da07f21940
